@@ -1,0 +1,292 @@
+# Copyright (C) 2024 Jörn Lund
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Multisite Blog Alias 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/multisite-blog-alias\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-06T15:20:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: multisite-blog-alias\n"
+
+#. Plugin Name of the plugin
+#: index.php
+#: include/BlogAlias/Admin/NetworkAdmin.php:90
+msgid "Multisite Blog Alias"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: index.php
+msgid "https://github.com/mcguffin/multisite-blog-alias"
+msgstr ""
+
+#. Description of the plugin
+#: index.php
+msgid "Alias Domains for Blogs"
+msgstr ""
+
+#. Author of the plugin
+#: index.php
+msgid "Jörn Lund"
+msgstr ""
+
+#. Author URI of the plugin
+#: index.php
+msgid "https://github.com/mcguffin"
+msgstr ""
+
+#: include/BlogAlias/Admin/Ajax.php:71
+#: include/BlogAlias/Model/AliasDomains.php:87
+msgid "Edit"
+msgstr ""
+
+#: include/BlogAlias/Admin/Ajax.php:76
+msgid "View"
+msgstr ""
+
+#: include/BlogAlias/Admin/Ajax.php:144
+msgid "Redirects are working."
+msgstr ""
+
+#. translators: lock symbol
+#: include/BlogAlias/Admin/Ajax.php:151
+msgid "However there are problems with your SSL-Certificates indicated by a red %s in the report above."
+msgstr ""
+
+#: include/BlogAlias/Admin/Ajax.php:156
+msgid "Some of the redirects (the gray ones) are not triggered by this system."
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:96
+#: include/BlogAlias/Admin/NetworkAdmin.php:102
+msgid "Redirect with path"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:105
+msgid "If checked the request path will be appended to the redirect URL."
+msgstr ""
+
+#. translators: 1: name of constant 2: wp-config.php filename
+#: include/BlogAlias/Admin/NetworkAdmin.php:116
+msgid "This setting is overridden by the constant %1$s in your %2$s"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:164
+msgid "Uninstall"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:177
+msgid "Sorry, you are not allowed to install plugins."
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:194
+msgid "Multisite Blog Alias Setup"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:201
+msgid "The plugin is well configured. The instructions are kept for documentation purposes."
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:209
+msgid "The plugin could not write to the filesystem."
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:210
+msgid "Please change the following."
+msgstr ""
+
+#. translators: sunrise.php file location
+#: include/BlogAlias/Admin/NetworkAdmin.php:247
+msgid "Insert the following code into %s:"
+msgstr ""
+
+#. translators: sunrise.php file location
+#: include/BlogAlias/Admin/NetworkAdmin.php:253
+msgid "Create a file %s with the following code:"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:288
+msgid "Sorry, you are not allowed to run the uninstall procedere."
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:309
+msgid "Uninstall Plugin?"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:312
+msgid "Uninstalling the plugin will remove the Blog Alias table from the database and deactivate the plugin."
+msgstr ""
+
+#. translators: number of domains being deleted on plugin uninstall
+#: include/BlogAlias/Admin/NetworkAdmin.php:321
+msgid "%d Alias Domain will be deleted."
+msgid_plural "%d Alias Domains will be deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:329
+msgid "No, back to plugins"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:332
+msgid "Yes, Uninstall now!"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:491
+msgid "Alias Domains"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:588
+msgid "Not Configured:"
+msgstr ""
+
+#. Translators: link to setup page
+#: include/BlogAlias/Admin/NetworkAdmin.php:591
+msgid "Multisite Blog Alias is not configured. Please visit %s for instructions."
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:595
+msgid "the setup page"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:604
+msgid "Alias created"
+msgstr ""
+
+#. translators: number of deleted entries
+#: include/BlogAlias/Admin/NetworkAdmin.php:609
+msgid "%d entry deleted"
+msgid_plural "%d entries deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:624
+msgid "Notice:"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:625
+#: include/BlogAlias/Model/AliasDomains.php:333
+msgid "The domain matches the site URL of this blog."
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:629
+msgid "Error:"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:684
+msgid "Add Domain Alias"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:697
+msgid "Add"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:705
+msgid "Domain Aliases"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:710
+msgid "– No Domain Aliases –"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:717
+msgid "Alias Domain"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:718
+msgid "Status"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:752
+msgid "Remove"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:767
+msgid "Check Status"
+msgstr ""
+
+#: include/BlogAlias/Admin/NetworkAdmin.php:770
+msgid "Remove All"
+msgstr ""
+
+#: include/BlogAlias/Ajax/AjaxHandler.php:155
+msgid "Nonce invalid"
+msgstr ""
+
+#: include/BlogAlias/Ajax/AjaxHandler.php:163
+msgid "Insufficient Permission"
+msgstr ""
+
+#: include/BlogAlias/Core/Sunrise.php:135
+msgid "Error writing sunrise.php"
+msgstr ""
+
+#: include/BlogAlias/Helper/URL.php:111
+msgid "Circular Redirect."
+msgstr ""
+
+#. translators: number of redirects
+#: include/BlogAlias/Helper/URL.php:121
+msgid "Maximum number of %d Redirects reached"
+msgstr ""
+
+#: include/BlogAlias/Helper/URL.php:132
+msgid "The domain or a redirect does not point to this blog."
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:68
+msgid "Blog does not exists."
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:72
+msgid "The Alias already exists."
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:75
+msgid "A different Blog is already using this domain."
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:85
+msgid "Visit other Blog"
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:93
+msgid "Empty domain name"
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:96
+msgid "Invalid domain name"
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:99
+msgid "Deletion failed"
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:102
+msgid "Something went wrong..."
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:316
+msgid "Domain alias not found."
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:325
+msgid "WP-Site for this alias could not be found."
+msgstr ""
+
+#: include/BlogAlias/Model/AliasDomains.php:331
+msgid "The domain is already used by another site."
+msgstr ""
+
+#: index.php:68
+msgid "The Multisite Blog Alias plugin requires a WordPress multisite installation."
+msgstr ""
+
+#: index.php:69
+msgid "It has been deactivated."
+msgstr ""
